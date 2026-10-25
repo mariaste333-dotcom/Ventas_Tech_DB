@@ -35,3 +35,11 @@ Se realizaron consultas para relacionar las tablas mediante INNER JOIN, calcular
 ## Uso de inteligencia artificial
 
 Se utilizó ChatGPT para revisar y mejorar consultas SQL, analizar los resultados y ayudar con la documentación del proyecto. Las sugerencias se comprobaron ejecutando las consultas en SQL Server.
+
+## Cambios realizados con ayuda de IA
+
+| Cambio | Qué decía la versión de IA | Cómo quedó | Por qué lo cambié |
+|---|---|---|---|
+| 1. Consulta con INNER JOIN | La IA sugirió unir las tablas de ventas, clientes, productos y categorías. | Revisé los nombres de las columnas y ejecuté la consulta en SQL Server. | Para comprobar que las relaciones funcionaran y que los resultados fueran correctos. |
+| 2. Orden de los resultados | La consulta necesitaba ordenar las ventas por fecha. | Corregí la ubicación del punto y coma y dejé ORDER BY fecha_venta al final. | Porque inicialmente daba un error de sintaxis y después funcionó correctamente. |
+| 3. Cálculo de ventas totales | La IA sugirió calcular el importe de cada venta. | Utilicé cantidad * precio_unitario AS total_venta. | Para obtener el total de cada venta y poder analizar los resultados. |
